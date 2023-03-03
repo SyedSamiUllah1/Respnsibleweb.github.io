@@ -3,3 +3,49 @@
     margin: 0;
     padding: 0;
 }
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+/* NavBar: Logo and Image */
+#logo{
+    margin: 3px 30px;
+}
+#logo img{
+    margin: 5px 15px;
+    height: 80px;
+    border-radius: 50%;
+}
+/* NavBar List Styling */
+#navbar ul{
+    display: flex;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .4;
+
+}
+#navbar ul li{
+    /* color: white; */
+    list-style: none;
+    font-size: .9rem;
+}
+#navbar ul li a{
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
