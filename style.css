@@ -57,7 +57,7 @@
     flex-direction: column;
     display: flex;
     padding: 3px 200px;
-    height: 513px;
+    height: 725px;
 }
 #home::before{
     content: "";
@@ -78,6 +78,21 @@
     font-size: 1.5rem;
     font-family: 'Sofia';
 }
+/* Services Section */
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown;
+}
+#services .box img{
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+
 /* Utility Classes */
 .h-primary{
     font-size: 1.8rem;
@@ -93,4 +108,11 @@
     border-radius: 7px;
     font-size: 1.5rem;
     cursor: pointer;
+}
+.h-secondary{
+    font-size: .8rem;
+    padding: 12px;
+}
+.center{
+    align-items: center;
 }
